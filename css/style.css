@@ -1,68 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-*{
-  --primary-color: #14FFEC;
+
+* {
+  --primary-color: white;
   --imput-color: #cadbda;
 }
 
-body{
-   background-image: url("../images/bg-image.jpg"); 
-   font-family: 'Montserrat', sans-serif;
-   margin: 0px;   
+body {
+  background-image: url("../images/bg-image.jpg");
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
 
-nav{
+nav {
   background-color: #000000;
   padding: 3rem 1rem 1rem 1rem;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
   color: white;
   margin-left: 0.7rem;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  color: white
 }
 
-#main-container{
-    text-align: center;
-    max-width: 600px;
-    margin:auto;
-    background-color: #323232;
-    padding: 1.5rem;
-    border-radius: 3rem;
-    border: 2px solid var(--primary-color);
+#main-container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  background-color: #323232;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  border: 2px solid var(--primary-color);
 }
 
-.angle-input{
- display: block;
- margin: 0.6rem auto 1.5rem auto;
- padding: 0.6rem;
- border-radius: 0.5rem;
- border: 2px solid var(--imput-color);
- width: 50%;
+#main-container label {
+  color: white;
+}
+
+.angle-input {
+  display: block;
+  margin: 0.6rem auto 1.5rem auto;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--imput-color);
+  width: 50%;
 }
 
 
-.input-side{
-    display: block;
-    margin: auto;
-    margin: 0.6rem auto 1.5rem auto;
-    padding: 0.6rem;
-    border-radius: 0.5rem;
-    border: 2px solid var(--imput-color);
+.input-side {
+  display: block;
+  margin: auto;
+  margin: 0.6rem auto 1.5rem auto;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--imput-color);
 }
 
-#submit-btn{
+#submit-btn {
   padding: 0.6rem;
   border-radius: 2rem;
-  border: 2px solid black;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+#check-btn {
+  padding: 0.6rem;
+  border-radius: 2rem;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+#output-div {
+  max-width: 300px;
+  margin: 2rem auto;
+  border: 2px solid white;
+  padding: 2rem;
+  color: #6bffce;
+  background-color: #323232;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 1rem;
 
 }
 
-#check-btn{
-  padding: 0.6rem;
-  border-radius: 2rem;
-  border: 2px solid black;
+.current-toggle {
+  padding-bottom: 7px;
+  border-bottom: 3px solid white;
+  font-weight: bolder;
+}
 
+.question-container {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  color: azure;
+}
+
+.options {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  color: white;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.footer a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+
+.footer-div {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
 }

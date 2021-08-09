@@ -11,7 +11,7 @@ return sumOfSquares;
 function calculateHypotenuse(){
  const sumOfSquares = calculateSumOfSquares(Number(sideInputs[0].value),Number(sideInputs[1].value));
  const hypotenuseLength = Math.sqrt(sumOfSquares);
- outputDiv.innerText = "The Hypotenuse of the Triangle is:"+hypotenuseLength;
+ outputDiv.innerText = "The Hypotenuse of the Triangle is: "+hypotenuseLength;
 
 }
 

@@ -12,72 +12,74 @@
 <body>
     <nav>
         <a href="istriangle.html" class="item-active">Is Triangle?</a>
-        <a href="trianglequiz.html">Triangle Quiz</a>
+        <a href="trianglequiz.html" class="current-toggle">Triangle Quiz</a>
         <a href="hypotenuse.html">Calculate Hypotenuse</a>
         <a href="trianglearea.html">Calculate Area</a>
+        <script src="https://use.fontawesome.com/e0ffb0dd0c.js"></script>
+
     </nav>
     <h1 class="heading">Triangle Quiz</h1>
     <div id="main-container">
         <form class="quiz-form">
-            <div>
+            <div class="question-container">
                 <p> The Two angles of a Triangle are: 90 degree and 45 degree. What is the 3rd angle of that triangle?
                 </p>
-                <label>
+                <label class="options">
                     <input type="radio" name="question1" value="45 degree">
                     45 degree
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question1" value="60 degree">
                     60 degree
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question1" value="80 degree">
                     80 degree
                 </label>
             </div>
-            <div>
+            <div class="question-container">
                 <p>If one of the angle of a triangle is greater than 90 degree than what is that triangle called?</p>
-                <label>
+                <label class="options">
                     <input type="radio" name="question2" value="acute angled triangle">
                     acute angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question2" value="obtuse angled triangle">
                     obtuse angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question2" value="right angled triangle">
                     right angled triangle
                 </label>
 
             </div>
-            <div>
+            <div class="question-container">
                 <p>If one of the angle of a triangle is equal to 90 degree than what is that triangle called?</p>
-                <label>
+                <label class="options">
                     <input type="radio" name="question3" value="acute angled triangle">
                     acute angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question3" value="obtuse angled triangle">
                     obtuse angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question3" value="right angled triangle">
                     right angled triangle
                 </label>
 
             </div>
-            <div>
+            <div class="question-container">
                 <p>If one of the angle of a triangle is less than 90 degree than what is that triangle called?</p>
-                <label>
+                <label class="options">
                     <input type="radio" name="question4" value="acute angled triangle">
                     acute angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question4" value="obtuse angled triangle">
                     obtuse angled triangle
                 </label>
-                <label>
+                <label class="options">
                     <input type="radio" name="question4" value="right angled triangle">
                     right angled triangle
                 </label>
@@ -87,6 +89,19 @@
         <button id="submit-btn">Submit</button>
     </div>
     <div id="output-div"></div>
+    <footer class="footer">
+        <div class="footer-div">
+            <a href="https://github.com/ViditAwasthi/triangles-quiz">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vidit-awasthi-768010195/">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/ViditAwasthi_">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 <script src="./trianglequiz.js"></script>
 
