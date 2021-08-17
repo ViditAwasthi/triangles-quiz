@@ -2,7 +2,7 @@ const submitBtn = document.querySelector("#submit-btn")
 const outputDiv = document.querySelector("#output-div")
 const quizForm = document.querySelector(".quiz-form");
 
-const answers = ["45 degree", "obtuse angled triangle", "right angled triangle", "acute angled triangle"]
+const answers = ["yes","yes","no","yes","45 degree", "obtuse angled triangle", "right angled triangle", "acute angled triangle", "yes", "isosceles","yes"]
 
 function calculateScore() {
     let score = 0;
